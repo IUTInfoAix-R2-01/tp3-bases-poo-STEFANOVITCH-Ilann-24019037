@@ -17,7 +17,6 @@ public class Teste {
 		l2.setName("Le Livre ");
 		System.out.println(l2.getName());
 		System.out.println(l2.toString());
-
 	}
 
 }
