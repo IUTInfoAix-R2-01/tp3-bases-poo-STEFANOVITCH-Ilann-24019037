@@ -3,9 +3,8 @@ package fr.IlannStefanvitch.ExoProf;
 public class Livre {
 	
 	private String name;
-	private float price;
+	private double price;
 	private int quatite;
-	private int jeSaisPas;
 	
 	public Livre () {
 		name = "Jean";
@@ -25,10 +24,10 @@ public class Livre {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public float getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(float price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	public int getQuatite() {
