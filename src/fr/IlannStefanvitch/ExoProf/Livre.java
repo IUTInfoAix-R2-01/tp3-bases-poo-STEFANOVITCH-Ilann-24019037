@@ -5,6 +5,7 @@ public class Livre {
 	private String name;
 	private float price;
 	private int quatite;
+	private int jeSaisPas;
 	
 	public Livre () {
 		name = "Jean";
@@ -40,6 +41,6 @@ public class Livre {
 	public String toString() {
 		return " Titre : " + name + " Pirx :" + price + " Qtt " + quatite;
 	}
-	
+
 	
 }
